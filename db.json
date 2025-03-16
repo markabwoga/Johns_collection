@@ -1,0 +1,66 @@
+{
+    "clothing": [
+      {
+        "type": "Shirts",
+        "items": [
+          { "name": "Casual T-Shirt", "price": 19.99, "colors": ["Red", "Blue", "Black"], "images": ["tshirt1.jpg", "tshirt2.jpg", "tshirt3.jpg"] },
+          { "name": "Formal Dress Shirt", "price": 39.99, "colors": ["White", "Light Blue", "Gray"], "images": ["dressshirt1.jpg", "dressshirt2.jpg"] },
+          { "name": "Casual T-Shirt", "price": 19.99, "colors": ["Red", "Blue", "Black"], "images": ["tshirt1.jpg", "tshirt2.jpg", "tshirt3.jpg"] },
+          { "name": "Formal Dress Shirt", "price": 39.99, "colors": ["White", "Light Blue", "Gray"], "images": ["dressshirt1.jpg", "dressshirt2.jpg"] },
+          { "name": "Casual T-Shirt", "price": 19.99, "colors": ["Red", "Blue", "Black"], "images": ["tshirt1.jpg", "tshirt2.jpg", "tshirt3.jpg"] },
+          { "name": "Formal Dress Shirt", "price": 39.99, "colors": ["White", "Light Blue", "Gray"], "images": ["dressshirt1.jpg", "dressshirt2.jpg"] }
+        ]
+      },
+      {
+        "type": "Dresses",
+        "items": [
+          { "name": "Evening Gown", "price": 89.99, "colors": ["Navy", "Burgundy", "Gold"], "images": ["gown1.jpg", "gown2.jpg"] },
+          { "name": "Casual Summer Dress", "price": 29.99, "colors": ["Yellow", "White", "Pink"], "images": ["summerdress1.jpg", "summerdress2.jpg"] },
+          { "name": "Evening Gown", "price": 89.99, "colors": ["Navy", "Burgundy", "Gold"], "images": ["gown1.jpg", "gown2.jpg"] },
+          { "name": "Casual Summer Dress", "price": 29.99, "colors": ["Yellow", "White", "Pink"], "images": ["summerdress1.jpg", "summerdress2.jpg"] },
+          { "name": "Evening Gown", "price": 89.99, "colors": ["Navy", "Burgundy", "Gold"], "images": ["gown1.jpg", "gown2.jpg"] },
+          { "name": "Casual Summer Dress", "price": 29.99, "colors": ["Yellow", "White", "Pink"], "images": ["summerdress1.jpg", "summerdress2.jpg"] },
+          { "name": "Evening Gown", "price": 89.99, "colors": ["Navy", "Burgundy", "Gold"], "images": ["gown1.jpg", "gown2.jpg"] },
+          { "name": "Casual Summer Dress", "price": 29.99, "colors": ["Yellow", "White", "Pink"], "images": ["summerdress1.jpg", "summerdress2.jpg"] }
+        ]
+      },
+      {
+        "type": "Shorts",
+        "items": [
+          { "name": "Denim Shorts", "price": 24.99, "colors": ["Blue", "Black"], "images": ["denimshorts1.jpg", "denimshorts2.jpg"] },
+          { "name": "Bermuda Shorts", "price": 27.99, "colors": ["Khaki", "Navy"], "images": ["bermudashorts1.jpg", "bermudashorts2.jpg"] },
+          { "name": "Denim Shorts", "price": 24.99, "colors": ["Blue", "Black"], "images": ["denimshorts1.jpg", "denimshorts2.jpg"] },
+          { "name": "Bermuda Shorts", "price": 27.99, "colors": ["Khaki", "Navy"], "images": ["bermudashorts1.jpg", "bermudashorts2.jpg"] },
+          { "name": "Denim Shorts", "price": 24.99, "colors": ["Blue", "Black"], "images": ["denimshorts1.jpg", "denimshorts2.jpg"] },
+          { "name": "Bermuda Shorts", "price": 27.99, "colors": ["Khaki", "Navy"], "images": ["bermudashorts1.jpg", "bermudashorts2.jpg"] },
+          { "name": "Denim Shorts", "price": 24.99, "colors": ["Blue", "Black"], "images": ["denimshorts1.jpg", "denimshorts2.jpg"] },
+          { "name": "Bermuda Shorts", "price": 27.99, "colors": ["Khaki", "Navy"], "images": ["bermudashorts1.jpg", "bermudashorts2.jpg"] }
+        ]
+      }
+    ],
+    "shoes": [
+      { "name": "Classic Sneakers", "price": 49.99, "colors": ["White", "Black"], "images": ["sneaker1.jpg", "sneaker2.jpg"] },
+      { "name": "Leather Boots", "price": 79.99, "colors": ["Brown", "Black"], "images": ["boots1.jpg", "boots2.jpg"] },
+      { "name": "Classic Sneakers", "price": 49.99, "colors": ["White", "Black"], "images": ["sneaker1.jpg", "sneaker2.jpg"] },
+      { "name": "Leather Boots", "price": 79.99, "colors": ["Brown", "Black"], "images": ["boots1.jpg", "boots2.jpg"] },
+      { "name": "Classic Sneakers", "price": 49.99, "colors": ["White", "Black"], "images": ["sneaker1.jpg", "sneaker2.jpg"] },
+      { "name": "Leather Boots", "price": 79.99, "colors": ["Brown", "Black"], "images": ["boots1.jpg", "boots2.jpg"] },
+      { "name": "Classic Sneakers", "price": 49.99, "colors": ["White", "Black"], "images": ["sneaker1.jpg", "sneaker2.jpg"] },
+      { "name": "Leather Boots", "price": 79.99, "colors": ["Brown", "Black"], "images": ["boots1.jpg", "boots2.jpg"] },      { "name": "Classic Sneakers", "price": 49.99, "colors": ["White", "Black"], "images": ["sneaker1.jpg", "sneaker2.jpg"] },
+      { "name": "Leather Boots", "price": 79.99, "colors": ["Brown", "Black"], "images": ["boots1.jpg", "boots2.jpg"] }
+
+    ],
+    "accessories": [
+      { "name": "Sunglasses", "price": 24.99, "colors": ["Black", "Brown"], "images": ["sunglass1.jpg", "sunglass2.jpg"] },
+      { "name": "Leather Belt", "price": 19.99, "colors": ["Black", "Tan"], "images": ["belt1.jpg", "belt2.jpg"] },
+      { "name": "Sunglasses", "price": 24.99, "colors": ["Black", "Brown"], "images": ["sunglass1.jpg", "sunglass2.jpg"] },
+      { "name": "Leather Belt", "price": 19.99, "colors": ["Black", "Tan"], "images": ["belt1.jpg", "belt2.jpg"] },
+      { "name": "Sunglasses", "price": 24.99, "colors": ["Black", "Brown"], "images": ["sunglass1.jpg", "sunglass2.jpg"] },
+      { "name": "Leather Belt", "price": 19.99, "colors": ["Black", "Tan"], "images": ["belt1.jpg", "belt2.jpg"] },
+      { "name": "Sunglasses", "price": 24.99, "colors": ["Black", "Brown"], "images": ["sunglass1.jpg", "sunglass2.jpg"] },
+      { "name": "Leather Belt", "price": 19.99, "colors": ["Black", "Tan"], "images": ["belt1.jpg", "belt2.jpg"] },
+      { "name": "Sunglasses", "price": 24.99, "colors": ["Black", "Brown"], "images": ["sunglass1.jpg", "sunglass2.jpg"] },
+      { "name": "Leather Belt", "price": 19.99, "colors": ["Black", "Tan"], "images": ["belt1.jpg", "belt2.jpg"] }
+    ]
+  }
+  
