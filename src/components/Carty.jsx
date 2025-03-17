@@ -20,7 +20,7 @@ const Cart = ({ cartItems, removeFromCart, clearCart }) => {
               {cartItems.map((item, index) => (
                 <li key={index}>
                   <strong>{item.name}</strong> - ${item.price}
-                  <button onClick={() => removeFromCart(index)}>❌</button>
+                  <button onClick={() => removeFromCart(index)}>X</button>
                 </li>
               ))}
             </ul>

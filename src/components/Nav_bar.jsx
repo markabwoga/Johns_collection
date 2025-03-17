@@ -53,8 +53,6 @@ const NavigationBar = () => {
 
       {/* Icons (Search, Cart, Account) */}
       <div className="icons">
-        <span className="icon">🔍</span>
-        <span className="icon">🛒</span>
         <span className="icon">👤</span>
       </div>
     </nav>

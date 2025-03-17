@@ -45,10 +45,10 @@ const Shop = ({ addToCart }) => {
               <p>Available Colors: {item.colors.join(", ")}</p>
               <div>
                 {item.images.map((img, i) => (
-                  <img key={i} src={`/images/${img}`} alt={item.name} width="100" />
+                  <img key={i} src={`/images/${img}`} alt={item.name} width="120" length="200" />
                 ))}
               </div>
-              <button onClick={() => addToCart(item)}>Add to Cart</button>
+              <button className="addToCartDiv" onClick={() => addToCart(item)}>Add to Cart</button>
             </div>
           ))}
         </div>

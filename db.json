@@ -1,72 +1,49 @@
 {
-    "clothing": [
-      {
-        "type": "Shirts",
-        "items": [
-          { "name": "Casual T-Shirt", "price": 19.99, "colors": ["Red", "Blue", "Black"], "images": ["../public/projectpics/whiteWT.webp", "tshirt2.jpg", "tshirt3.jpg"] },
-          { "name": "Formal Dress Shirt", "price": 39.99, "colors": ["White", "Light Blue", "Gray"], "images": ["../public/projectpics/white.webp", "dressshirt2.jpg"] },
-          { "name": "Casual T-Shirt", "price": 19.99, "colors": ["Red", "Blue", "Black"], "images": ["../public/projectpics/verydarkshirt.webp", "tshirt2.jpg", "tshirt3.jpg"] },
-          { "name": "Formal Dress Shirt", "price": 39.99, "colors": ["White", "Light Blue", "Gray"], "images": ["../public/projectpics/blue.webp", "dressshirt2.jpg"] },
-          { "name": "Casual T-Shirt", "price": 19.99, "colors": ["Red", "Blue", "Black"], "images": ["../public/projectpics/blackT.webp", "tshirt2.jpg", "tshirt3.jpg"] },
-          { "name": "Formal Dress Shirt", "price": 39.99, "colors": ["White", "Light Blue", "Gray"], "images": ["../public/projectpics/caTshirt.webp", "dressshirt2.jpg"] },
-          { "name": "Formal Dress Shirt", "price": 39.99, "colors": ["White", "Light Blue", "Gray"], "images": ["../public/projectpics/blueshirt.webp", "dressshirt2.jpg"] },
-          { "name": "Formal Dress Shirt", "price": 39.99, "colors": ["White", "Light Blue", "Gray"], "images": ["../public/projectpics/blackT.webp", "dressshirt2.jpg"] }
-
-
-        ]
-      },
-      {
-        "type": "Dresses",
-        "items": [
-          { "name": "Evening Gown", "price": 89.99, "colors": ["Navy", "Burgundy", "Gold"], "images": ["gown1.jpg", "gown2.jpg"] },
-          { "name": "Casual Summer Dress", "price": 29.99, "colors": ["Yellow", "White", "Pink"], "images": ["summerdress1.jpg", "summerdress2.jpg"] },
-          { "name": "Evening Gown", "price": 89.99, "colors": ["Navy", "Burgundy", "Gold"], "images": ["gown1.jpg", "gown2.jpg"] },
-          { "name": "Casual Summer Dress", "price": 29.99, "colors": ["Yellow", "White", "Pink"], "images": ["summerdress1.jpg", "summerdress2.jpg"] },
-          { "name": "Evening Gown", "price": 89.99, "colors": ["Navy", "Burgundy", "Gold"], "images": ["gown1.jpg", "gown2.jpg"] },
-          { "name": "Casual Summer Dress", "price": 29.99, "colors": ["Yellow", "White", "Pink"], "images": ["summerdress1.jpg", "summerdress2.jpg"] },
-          { "name": "Evening Gown", "price": 89.99, "colors": ["Navy", "Burgundy", "Gold"], "images": ["gown1.jpg", "gown2.jpg"] },
-          { "name": "Casual Summer Dress", "price": 29.99, "colors": ["Yellow", "White", "Pink"], "images": ["summerdress1.jpg", "summerdress2.jpg"] }
-        ]
-      },
-      {
-        "type": "Shorts",
-        "items": [
-          { "name": "Denim Shorts", "price": 24.99, "colors": ["Blue", "Black"], "images": ["../public/projectpics/s1.jpg", "denimshorts2.jpg"] },
-          { "name": "Bermuda Shorts", "price": 27.99, "colors": ["Khaki", "Navy"], "images": ["../public/projectpics/s2.jpg", "bermudashorts2.jpg"] },
-          { "name": "Denim Shorts", "price": 24.99, "colors": ["Blue", "Black"], "images": ["../public/projectpics/s3.jpg", "denimshorts2.jpg"] },
-          { "name": "Bermuda Shorts", "price": 27.99, "colors": ["Khaki", "Navy"], "images": ["../public/projectpics/s4.jpg", "bermudashorts2.jpg"] },
-          { "name": "Denim Shorts", "price": 24.99, "colors": ["Blue", "Black"], "images": ["public/projectpics/s6.jpg", "denimshorts2.jpg"] },
-          { "name": "Bermuda Shorts", "price": 27.99, "colors": ["Khaki", "Navy"], "images": ["public/projectpics/s7.jpg", "bermudashorts2.jpg"] },
-          { "name": "Denim Shorts", "price": 24.99, "colors": ["Blue", "Black"], "images": ["public/projectpics/s8.jpg", "denimshorts2.jpg"] },
-          { "name": "Bermuda Shorts", "price": 27.99, "colors": ["Khaki", "Navy"], "images": ["public/projectpics/s9.jpg", "bermudashorts2.jpg"] },
-          { "name": "Bermuda Shorts", "price": 27.99, "colors": ["Khaki", "Navy"], "images": ["public/projectpics/s9.jpg", "bermudashorts2.jpg"] }
-
-        ]
-      }
-    ],
-    "shoes": [
-      { "name": "Classic Sneakers", "price": 49.99, "colors": ["White", "Black"], "images": ["sneaker1.jpg", "sneaker2.jpg"] },
-      { "name": "Leather Boots", "price": 79.99, "colors": ["Brown", "Black"], "images": ["boots1.jpg", "boots2.jpg"] },
-      { "name": "Classic Sneakers", "price": 49.99, "colors": ["White", "Black"], "images": ["sneaker1.jpg", "sneaker2.jpg"] },
-      { "name": "Leather Boots", "price": 79.99, "colors": ["Brown", "Black"], "images": ["boots1.jpg", "boots2.jpg"] },
-      { "name": "Classic Sneakers", "price": 49.99, "colors": ["White", "Black"], "images": ["sneaker1.jpg", "sneaker2.jpg"] },
-      { "name": "Leather Boots", "price": 79.99, "colors": ["Brown", "Black"], "images": ["boots1.jpg", "boots2.jpg"] },
-      { "name": "Classic Sneakers", "price": 49.99, "colors": ["White", "Black"], "images": ["sneaker1.jpg", "sneaker2.jpg"] },
-      { "name": "Leather Boots", "price": 79.99, "colors": ["Brown", "Black"], "images": ["boots1.jpg", "boots2.jpg"] },      { "name": "Classic Sneakers", "price": 49.99, "colors": ["White", "Black"], "images": ["sneaker1.jpg", "sneaker2.jpg"] },
-      { "name": "Leather Boots", "price": 79.99, "colors": ["Brown", "Black"], "images": ["boots1.jpg", "boots2.jpg"] }
-
-    ],
-    "accessories": [
-      { "name": "Sunglasses", "price": 24.99, "colors": ["Black", "Brown"], "images": ["sunglass1.jpg", "sunglass2.jpg"] },
-      { "name": "Leather Belt", "price": 19.99, "colors": ["Black", "Tan"], "images": ["../public/projectpics/b1.jpg", ""] },
-      { "name": "Sunglasses", "price": 24.99, "colors": ["Black", "Brown"], "images": ["sunglass1.jpg", "sunglass2.jpg"] },
-      { "name": "Leather Belt", "price": 19.99, "colors": ["Black", "Tan"], "images": ["../public/projectpics/b2.jpg", "belt2.jpg"] },
-      { "name": "Sunglasses", "price": 24.99, "colors": ["Black", "Brown"], "images": ["sunglass1.jpg", "sunglass2.jpg"] },
-      { "name": "Leather Belt", "price": 19.99, "colors": ["Black", "Tan"], "images": ["../public/projectpics/b3.jpg", "belt2.jpg"] },
-      { "name": "Sunglasses", "price": 24.99, "colors": ["Black", "Brown"], "images": ["../public/projectpics/b4.jpg", "sunglass2.jpg"] },
-      { "name": "Leather Belt", "price": 19.99, "colors": ["Black", "Tan"], "images": ["../public/projectpics/b5.jpg", "belt2.jpg"] },
-      { "name": "Sunglasses", "price": 24.99, "colors": ["Black", "Brown"], "images": ["sunglass1.jpg", "sunglass2.jpg"] },
-      { "name": "Leather Belt", "price": 19.99, "colors": ["Black", "Tan"], "images": ["../public/projectpics/b6.jpg", "belt2.jpg"] }
-    ]
-  }
-  
+  "clothing": [
+    {
+      "type": "Shirts",
+      "items": [
+        { "name": "Casual T-Shirt", "price": 19.99, "colors": ["Red", "Blue", "Black"], "images": ["../public/projectpics/whiteWT.webp"] },
+        { "name": "Formal Dress Shirt", "price": 39.99, "colors": ["White", "Light Blue", "Gray"], "images": ["../public/projectpics/white.webp"] },
+        { "name": "Casual T-Shirt", "price": 19.99, "colors": ["Red", "Blue", "Black"], "images": ["../public/projectpics/verydarkshirt.webp"] },
+        { "name": "Formal Dress Shirt", "price": 39.99, "colors": ["White", "Light Blue", "Gray"], "images": ["../public/projectpics/blue.webp"] },
+        { "name": "Casual T-Shirt", "price": 19.99, "colors": ["Red", "Blue", "Black"], "images": ["../public/projectpics/blackT.webp"] },
+        { "name": "Formal Dress Shirt", "price": 39.99, "colors": ["White", "Light Blue", "Gray"], "images": ["../public/projectpics/caTshirt.webp"] },
+        { "name": "Formal Dress Shirt", "price": 39.99, "colors": ["White", "Light Blue", "Gray"], "images": ["../public/projectpics/blueshirt.webp"] },
+        { "name": "Formal Dress Shirt", "price": 39.99, "colors": ["White", "Light Blue", "Gray"], "images": ["../public/projectpics/blackT.webp"] }
+      ]
+    },
+    {
+      "type": "Skirts",
+      "items": [
+        { "name": "Evening Gown", "price": 89.99, "colors": ["Navy", "Burgundy", "Gold"], "images": ["../public/projectpics/grayskirt.jpg"] },
+        { "name": "Casual Summer Dress", "price": 29.99, "colors": ["Yellow", "White", "Pink"], "images": ["../public/projectpics/skirtlady.jpg"] },
+        { "name": "Evening Gown", "price": 89.99, "colors": ["Navy", "Burgundy", "Gold"], "images": ["../public/projectpics/skirtblack.jpg"] },
+        { "name": "Casual Summer Dress", "price": 29.99, "colors": ["Yellow", "White", "Pink"], "images": ["../public/projectpics/jungleskirt.jpg"] },
+        { "name": "Evening Gown", "price": 89.99, "colors": ["Navy", "Burgundy", "Gold"], "images": ["../public/projectpics/redskirt.jpg"] }
+      ]
+    },
+    {
+      "type": "Shorts",
+      "items": [
+        { "name": "Denim Shorts", "price": 24.99, "colors": ["Blue", "Black"], "images": ["../public/projectpics/s1.jpg"] },
+        { "name": "Bermuda Shorts", "price": 27.99, "colors": ["Khaki", "Navy"], "images": ["../public/projectpics/s2.jpg"] },
+        { "name": "Denim Shorts", "price": 24.99, "colors": ["Blue", "Black"], "images": ["../public/projectpics/s3.jpg"] },
+        { "name": "Bermuda Shorts", "price": 27.99, "colors": ["Khaki", "Navy"], "images": ["../public/projectpics/s4.jpg"] },
+        { "name": "Denim Shorts", "price": 24.99, "colors": ["Blue", "Black"], "images": ["../public/projectpics/s6.jpg"] }
+      ]
+    }
+  ],
+  "shoes": [
+    { "name": "Classic Sneakers", "price": 49.99, "colors": ["White", "Black"], "images": ["../public/projectpics/usama-akram-kP6knT7tjn4-unsplash.jpg"] },
+    { "name": "Leather Boots", "price": 79.99, "colors": ["Brown", "Black"], "images": ["../public/projectpics/wengang-zhai-_fOL6ebfECQ-unsplash.jpg"] },
+    { "name": "Classic Sneakers", "price": 49.99, "colors": ["White", "Black"], "images": ["../public/projectpics/domino-studio-164_6wVEHfI-unsplash.jpg"] },
+    { "name": "Leather Boots", "price": 79.99, "colors": ["Brown", "Black"], "images": ["../public/projectpics/felipepelaquim-6zO5VKogoZE-unsplash.jpg"] }
+  ],
+  "accessories": [
+    { "name": "Leather Belt", "price": 19.99, "colors": ["Black", "Tan"], "images": ["../public/projectpics/b1.jpg"] },
+    { "name": "Sunglasses", "price": 24.99, "colors": ["Black", "Brown"], "images": ["../public/projectpics/b4.jpg"] },
+    { "name": "Leather Belt", "price": 19.99, "colors": ["Black", "Tan"], "images": ["../public/projectpics/b2.jpg"] },
+    { "name": "Sunglasses", "price": 24.99, "colors": ["Black", "Brown"], "images": ["../public/projectpics/b3.jpg"] }
+  ]
+}

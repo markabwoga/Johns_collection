@@ -106,7 +106,7 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #ff6600;
+  background: rgb(70, 70, 232);
   color: white;
   padding: 15px;
   border-radius: 50%;
@@ -135,6 +135,15 @@
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   max-width: 300px;
+
+  button{
+    background-color: rgb(56, 56, 209);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+  }
 }
 
 /* Home Section */
@@ -283,4 +292,14 @@
       background-color: transparent;
       box-shadow: none;
   }
+}
+.addToCartDiv{
+  background-color: rgb(80, 80, 201);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  margin-top: 8px;
 }

@@ -34,7 +34,7 @@ const Accessories = ({ addToCart }) => {
                   <img key={i} src={`/images/${img}`} alt={item.name} />
                 ))}
               </div>
-              <button onClick={() => addToCart(item)}>Add to Cart</button>
+              <button className="addToCartDiv" onClick={() => addToCart(item)}>Add to Cart</button>
             </div>
           ))}
         </div>

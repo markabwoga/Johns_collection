@@ -34,7 +34,7 @@ const Shoes = ({ addToCart }) => {
                   <img key={i} src={`/images/${img}`} alt={shoe.name} />
                 ))}
               </div>
-              <button onClick={() => addToCart(shoe)}>Add to Cart</button>
+              <button className="addToCartDiv" onClick={() => addToCart(shoe)}>Add to Cart</button>
               </div>
           ))}
         </div>
