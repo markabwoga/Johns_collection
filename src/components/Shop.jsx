@@ -11,7 +11,10 @@ const Shop = ({ addToCart }) => {
   // Fetch all data from db.json
   const fetchShopData = async () => {
     try {
-      const response = await fetch("/db.json"); // Adjust path if needed
+      // Fetch db.json using Vite-compatible path
+      const response = await fetch(`${import.meta.env.BASE_URL}db.json`);
+      if (!response.ok) throw new Error("Failed to fetch data");
+
       const json = await response.json();
 
       // Extract items from clothing, shoes, and accessories
@@ -45,10 +48,18 @@ const Shop = ({ addToCart }) => {
               <p>Available Colors: {item.colors.join(", ")}</p>
               <div>
                 {item.images.map((img, i) => (
-                  <img key={i} src={`/images/${img}`} alt={item.name} width="120" length="200" />
+                  <img
+                    key={i}
+                    src={`${import.meta.env.BASE_URL}images/${img}`} // Corrected for Vite + GitHub Pages
+                    alt={item.name}
+                    width="120"
+                    height="200"
+                  />
                 ))}
               </div>
-              <button className="addToCartDiv" onClick={() => addToCart(item)}>Add to Cart</button>
+              <button className="addToCartDiv" onClick={() => addToCart(item)}>
+                Add to Cart
+              </button>
             </div>
           ))}
         </div>

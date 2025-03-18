@@ -7,7 +7,10 @@ const Shoes = ({ addToCart }) => {
   // Fetch Shoes data
   const fetchShoesData = async () => {
     try {
-      const response = await fetch("/db.json"); // Adjust path if needed
+      // Use BASE_URL for correct path resolution in GitHub Pages
+      const response = await fetch(`${import.meta.env.BASE_URL}db.json`);
+      if (!response.ok) throw new Error("Failed to fetch Shoes data");
+
       const json = await response.json();
       setShoes(json.shoes); // Directly setting shoes array
     } catch (error) {
@@ -31,11 +34,19 @@ const Shoes = ({ addToCart }) => {
               <p>Available Colors: {shoe.colors.join(", ")}</p>
               <div className="shoes-images">
                 {shoe.images.map((img, i) => (
-                  <img key={i} src={`/images/${img}`} alt={shoe.name} />
+                  <img
+                    key={i}
+                    src={`${import.meta.env.BASE_URL}images/${img}`} // Corrected for Vite + GitHub Pages
+                    alt={shoe.name}
+                    width="120"
+                    height="200"
+                  />
                 ))}
               </div>
-              <button className="addToCartDiv" onClick={() => addToCart(shoe)}>Add to Cart</button>
-              </div>
+              <button className="addToCartDiv" onClick={() => addToCart(shoe)}>
+                Add to Cart
+              </button>
+            </div>
           ))}
         </div>
       ) : (

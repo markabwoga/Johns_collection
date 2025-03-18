@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../App.css"; // Ensure you have styles defined in your CSS file
+import "../App.css"; // Ensure styles are properly imported
 
 const Clothing = ({ addToCart }) => {
   const [clothing, setClothing] = useState([]);
@@ -7,7 +7,10 @@ const Clothing = ({ addToCart }) => {
   // Async function to fetch clothing data
   const fetchClothingData = async () => {
     try {
-      const response = await fetch("/db.json"); // Adjust path if needed
+      // Use BASE_URL for correct path resolution in GitHub Pages
+      const response = await fetch(`${import.meta.env.BASE_URL}db.json`);
+      if (!response.ok) throw new Error("Failed to fetch clothing data");
+
       const json = await response.json();
       setClothing(json.clothing); // Access only the clothing section
     } catch (error) {
@@ -34,10 +37,18 @@ const Clothing = ({ addToCart }) => {
                   <p>Available Colors: {item.colors.join(", ")}</p>
                   <div className="clothing-images">
                     {item.images.map((img, j) => (
-                      <img key={j} src={`/images/${img}`} alt={item.name} />
+                      <img
+                        key={j}
+                        src={`${import.meta.env.BASE_URL}images/${img}`} // Corrected for Vite + GitHub Pages
+                        alt={item.name}
+                        width="120"
+                        height="200"
+                      />
                     ))}
                   </div>
-                  <button className="addToCartDiv" onClick={() => addToCart(item)}>Add to Cart</button>
+                  <button className="addToCartDiv" onClick={() => addToCart(item)}>
+                    Add to Cart
+                  </button>
                 </div>
               ))}
             </div>
