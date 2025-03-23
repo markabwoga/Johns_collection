@@ -1,26 +1,31 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 const Shop = ({ addToCart }) => {
   const [items, setItems] = useState([]);
+  const JSONBIN_URL = "https://api.jsonbin.io/v3/b/67df5b688561e97a50f1077f";
+  const JSONBIN_KEY = "$2a$10$XCJidaWnabIGUw50h6mMVO8lOAZ2g7tansfd4vOGkHguTiquocJIK"; // ⚠️ Keep this secret in production!
 
   // Function to shuffle array
   const shuffleArray = (array) => {
     return array.sort(() => Math.random() - 0.5);
   };
 
-  // Fetch all data from db.json
+  // Fetch data from JSONBin.io
   const fetchShopData = async () => {
     try {
-      // Fetch db.json using Vite-compatible path
-      const response = await fetch(`${import.meta.env.BASE_URL}db.json`);
-      if (!response.ok) throw new Error("Failed to fetch data");
+      const response = await axios.get(JSONBIN_URL, {
+        headers: {
+          "X-Master-Key": JSONBIN_KEY, // Required since the bin is private
+        },
+      });
 
-      const json = await response.json();
+      const json = response.data.record; // JSONBin wraps data inside `record`
 
       // Extract items from clothing, shoes, and accessories
-      const clothingItems = json.clothing.flatMap(category => category.items);
-      const shoesItems = json.shoes;
-      const accessoriesItems = json.accessories;
+      const clothingItems = json.clothing?.flatMap((category) => category.items) || [];
+      const shoesItems = json.shoes || [];
+      const accessoriesItems = json.accessories || [];
 
       // Combine all items into one array
       const allItems = [...clothingItems, ...shoesItems, ...accessoriesItems];
@@ -45,17 +50,17 @@ const Shop = ({ addToCart }) => {
             <div key={index} className="shop-item">
               <h4>{item.name}</h4>
               <p>Price: ${item.price}</p>
-              <p>Available Colors: {item.colors.join(", ")}</p>
+              <p>Available Colors: {item.colors?.join(", ") || "N/A"}</p>
               <div>
-                {item.images.map((img, i) => (
+                {item.images?.map((img, i) => (
                   <img
                     key={i}
-                    src={`${import.meta.env.BASE_URL}images/${img}`} // Corrected for Vite + GitHub Pages
+                    src={img} // Assuming images are hosted online
                     alt={item.name}
                     width="120"
                     height="200"
                   />
-                ))}
+                )) || "No Image"}
               </div>
               <button className="addToCartDiv" onClick={() => addToCart(item)}>
                 Add to Cart
